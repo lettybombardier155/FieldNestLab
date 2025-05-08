@@ -1,0 +1,23 @@
+
+---
+
+### **2. 37_APIRouteScope**  
+**Описание:**  
+Сканирует API-роуты на предмет нестабильных откликов, таймаутов и дрейфа задержек.
+
+#### `README.md`
+```markdown
+# APIRouteScope - Endpoint Health and Drift Tracker
+
+APIRouteScope monitors a list of API routes and flags slowdowns, timeouts, and drift patterns.
+
+## Features
+- Route-based API scanning  
+- Realtime and batch support  
+- CSV / JSON output
+
+## Usage
+```bash
+git clone https://github.com/your-username/37_APIRouteScope.git
+cd 37_APIRouteScope
+python monitor.py
