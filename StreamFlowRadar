@@ -1,0 +1,23 @@
+
+---
+
+### **4. 37_StreamFlowRadar**  
+**Описание:**  
+Отображает поток числовых данных в живом скроллируемом графике с функцией анализа пиков.
+
+#### `README.md`
+```markdown
+# StreamFlowRadar - Live Data Chart With Peak Detection
+
+StreamFlowRadar visualizes real-time numeric input and flags spikes or drops using threshold zones.
+
+## Features
+- Real-time chart with alerts  
+- Scrollable history  
+- Matplotlib backend
+
+## Usage
+```bash
+git clone https://github.com/your-username/37_StreamFlowRadar.git
+cd 37_StreamFlowRadar
+python visualize.py
